@@ -4,8 +4,12 @@ public class storage {
     int totalBottles;
     int totalSodaBottles;
     int totalWaterBottles;
+    String sodaBrand;
+    String waterBrand;
     ArrayList<shelf> shelves= new ArrayList<shelf>();
-    public storage(int usaTotal,int usaSoda,int usaWater,int numShelves){
+    public storage(int usaTotal,int usaSoda,int usaWater,int numShelves,String sodaBrand,String waterBrand){
+        this.sodaBrand=sodaBrand;
+        this.waterBrand=waterBrand;
         totalBottles=usaTotal;
         totalSodaBottles=usaSoda;
         totalWaterBottles=usaWater;
@@ -25,7 +29,17 @@ public class storage {
     public void fillShelves(){
         for(shelf usaShelf:shelves){
             while(!usaShelf.getFull()){
-
+                if(totalSodaBottles>0){
+                    usaShelf.add(new sodaBottle(sodaBrand));
+                    totalSodaBottles-=1;
+                }
+                else if(totalWaterBottles>0){
+                    usaShelf.add(new waterBottle(waterBrand));
+                    totalWaterBottles-=1;
+                }
+                else{
+                    System.out.println("No Bottles left!");
+                }
             }
         }
 
