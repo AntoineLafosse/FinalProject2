@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e6cd3c8-c3cd-4e34-a67a-4ca12a22636a" name="Changes" comment="finish main">
+    <list default="true" id="4e6cd3c8-c3cd-4e34-a67a-4ca12a22636a" name="Changes" comment="finish main again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
@@ -76,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684876366085</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finish main again">
+      <created>1684950557830</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684950557831</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,6 +102,7 @@
     <MESSAGE value="use picture to help format" />
     <MESSAGE value="finish fillshelves" />
     <MESSAGE value="finish main" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish main" />
+    <MESSAGE value="finish main again" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish main again" />
   </component>
 </project>

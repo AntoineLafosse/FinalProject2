@@ -12,7 +12,9 @@ public class main {
         System.out.println("how many soda bottles do you have?");
         while(!in.hasNextInt()&&in.nextInt()>0){
             usaSodaBottle=in.nextInt();
+            valid=false;
         }
+
         System.out.println("What brand are these soda bottles(conk or bebi)?");
         while(in.nextLine()!="conk"||in.nextLine()!="bebi"){
             usaSodaBrand=in.nextLine();
