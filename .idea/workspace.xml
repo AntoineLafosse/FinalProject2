@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e6cd3c8-c3cd-4e34-a67a-4ca12a22636a" name="Changes" comment="finish fillshelves">
+    <list default="true" id="4e6cd3c8-c3cd-4e34-a67a-4ca12a22636a" name="Changes" comment="finish main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/storage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684778513463</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="finish main">
+      <created>1684876366085</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684876366085</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +94,7 @@
     <MESSAGE value="the start, find out how to construct an object in shelf class" />
     <MESSAGE value="use picture to help format" />
     <MESSAGE value="finish fillshelves" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish fillshelves" />
+    <MESSAGE value="finish main" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish main" />
   </component>
 </project>
