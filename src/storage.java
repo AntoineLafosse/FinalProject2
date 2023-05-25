@@ -26,6 +26,9 @@ public class storage {
     public int getTotalBottles(){
         return totalBottles;
     }
+    public ArrayList<shelf> getShelves(){
+        return shelves;
+    }
     public void fillShelves(){
         for(shelf usaShelf:shelves){
             while(!usaShelf.getFull()){
@@ -38,7 +41,7 @@ public class storage {
                     totalWaterBottles-=1;
                 }
                 else{
-                    System.out.println("No Bottles left!");
+                    break;
                 }
             }
         }

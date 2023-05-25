@@ -27,5 +27,9 @@ public class shelf {
         }
 
     }
+    public String toString(){
+        String result="is full? "+getFull();
+        return result;
+    }
 
 }
