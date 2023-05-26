@@ -1,20 +1,24 @@
 public class shelf {
     private bottle shelfSpace[]=new bottle[5];
     private boolean isFull;
+    //class constructor
     public shelf(){
         isFull=false;
     }
+    //returns shelf array
     public bottle[] getShelf(){
         return shelfSpace;
     }
+    //returns whether or not the shelf array is full.
     public boolean getFull(){
         if (shelfSpace[4] instanceof sodaBottle|| shelfSpace[4] instanceof waterBottle){
             isFull=true;
         }
         return isFull;
     }
+    //adds a bottle to the end of the array, assuming that it is not full.
     public void add(bottle usaBottle){
-            if (shelfSpace[4] instanceof sodaBottle|| shelfSpace[4] instanceof waterBottle){
+            if (shelfSpace[4] instanceof sodaBottle||shelfSpace[4] instanceof waterBottle){
                 isFull=true;
             }
             else{

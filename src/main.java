@@ -31,6 +31,7 @@ public class main {
                 }
             }
         }
+        usaSodaBottle=in.nextInt();
         System.out.println("What brand are these soda bottles(conk or bebi)?");
         usaSodaBrand=in.nextLine();
         while(!usaSodaBrand.equals("conk")&&!usaSodaBrand.equals("bebi")){
